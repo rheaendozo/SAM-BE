@@ -1,0 +1,84 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins";
+}
+
+.w3-bar-block .w3-bar-item {
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#mySidebar a {
+    text-decoration: none;
+}
+
+.island-card,
+.content-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.island-card:hover,
+.content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.island-card img,
+.content-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.island-card .p-3,
+.content-card .p-3 {
+    padding: 15px;
+}
+
+.island-card h3,
+.content-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.island-card p,
+.content-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.island-card:hover .p-3,
+.content-card:hover .p-3 {
+    background-color: #f9f9f9;
+}
+
+.stars i {
+    color: gold;
+    font-size: 24px;
+}
+
+.stars i.bi-star {
+    color: gray;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 20px;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+
+  footer a {
+    text-decoration: none;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer .social-icons a {
+    font-size: 1.5rem;
+  }
+
+  #home, #athletes, #stories, #games {
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 50px;
+  }
